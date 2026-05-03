@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NoteShare India</title>
+  <!-- Google Fonts for modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <header>
+    <h1>NoteShare</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Upload Notes</a>
+      <a href="#">Browse Notes</a>
+      <a href="#">Request Notes</a>
+      <button class="login">Login</button>
+      <button class="signup">Sign Up</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="images/hero-image.jpg" alt="Indian Monuments Banner" />
+    <div class="hero-text">
+      <h2>Share Knowledge, Ace Exams Together</h2>
+      <p>Upload and download notes from students across India.</p>
+      <button class="upload">Upload Notes</button>
+      <button class="browse">Browse Notes</button>
+    </div>
+  </section>
+  <section class="search">
+  <input type="text" placeholder="Find notes by subject, semester, or university..." />
+
+  <select>
+    <option disabled selected>Subject</option>
+    <option>DBMS</option>
+    <option>Economics</option>
+    <option>Physics</option>
+    <option>Biochemistry</option>
+  </select>
+
+  <select>
+    <option disabled selected>Semester</option>
+    <option>Semester 1</option>
+    <option>Semester 2</option>
+    <option>Semester 3</option>
+    <option>Semester 4</option>
+  </select>
+
+  <select>
+    <option disabled selected>University</option>
+    <option>RGPV</option>
+    <option>Delhi University</option>
+    <option>Mumbai University</option>
+    <option>Anna University</option>
+  </select>
+
+  <select>
+    <option disabled selected>Rating</option>
+    <option>★★★★★</option>
+    <option>★★★★☆</option>
+    <option>★★★☆☆</option>
+    <option>★★☆☆☆</option>
+  </select>
+
+  <button>Search</button>
+</section>
+   <section class="featured">
+    <h3>Featured Notes</h3>
+    <div class="note-card">
+      <img src="images/dbms.jpg" alt="DBMS Notes">
+      <p>DBMS Basics – RGPV Sem 3</p>
+    </div>
+    <div class="note-card">
+      <img src="images/economics.jpg" alt="Economics Notes">
+      <p>economics – Delhi University</p>
+    </div>
+    <div class="note-card">
+      <img src="images/physics.jpg" alt="Physics Notes">
+      <p>Physics-kinematics Notes – Semester 2</p>
+    </div>
+    <div class="note-card">
+      <img src="images/biochem.jpg" alt="Biochemistry Notes">
+      <p>Biochemistry – Mumbai University </p>
+    </div>
+  </section>
+
+  <section class="recent-notes">
+    <h3>Recently Uploaded Notes</h3>
+    <div class="note-card">
+      <img src="images/dbms.jpg" alt="DBMS Notes">
+      <p>DBMS – ER Diagrams (RGPV)</p>
+      <span>Uploaded 2 hours ago</span>
+    </div>
+    <div class="note-card">
+      <img src="images/economics.jpg" alt="Economics Notes">
+      <p>Economics – Demand Curve (delhi university)</p>
+      <span>Uploaded 5 hours ago</span>
+    </div>
+    <div class="note-card">
+      <img src="images/physics.jpg" alt="Physics Notes">
+      <p>Physics – Kinematics (Sem 2)</p>
+      <span>Uploaded yesterday</span>
+    </div>
+  </section>
+
+  <section class="request">
+    <h3>Request Notes</h3>
+    <input type="text" placeholder="Enter your note request..." />
+    <button>Submit Request</button>
+  </section>
+
+  <footer>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Privacy Policy</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
